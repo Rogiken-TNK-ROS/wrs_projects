@@ -1,4 +1,4 @@
 import WRSUtil
 WRSUtil.loadProject(
-    "MultiSceneViews", "TS1", "AGXSimulator", "DoubleArmV7A",
-    enableVisionSimulation = True, remoteType = "ROS")
+    "MultiSceneViews", "TS1", "AGXSimulator", "DoubleArmV7A-ROS",
+    enableVisionSimulation = True)
