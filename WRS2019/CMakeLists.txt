@@ -22,3 +22,7 @@ install(DIRECTORY
   DESTINATION ${CNOID_SHARE_SUBDIR}/WRS2019)
 
 add_subdirectory(controller)
+
+if(NOT ENABLE_GUI)
+  return()
+endif()
